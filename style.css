@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(27, 134, 90),rgb(136, 172, 9));
+
+}
+.container{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgb(50, 155, 100);
+    border-radius: 50px;
+
+}
+    
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color:rgb(3, 20, 20)
+}
+.container .elements input
+{
+    width: 100%;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px white;
+    color: rgb(3, 20, 20);
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+.container .elements label
+{
+    color: rgb(3, 20, 20);
+    font-size: 20px;
+}
+.container .elements input[type="submit"]
+{
+    background-color: rgb(1, 85, 57);
+    border: 1px;
+    border-radius: 50px;
+    margin: 0px;
+    width: 400px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
